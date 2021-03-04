@@ -7,8 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <pre>Physical  : <input type="text" name="" id=""></pre>
-    <pre>Chemistry : <input type="text" name="" id=""></pre>    
-    <pre>Biological: <input type="text" name="" id=""></pre>    
+    
 </body>
+<script>
+    physical = prompt("Enter Physical:")
+    chemistry = prompt("Enter Chemistry:")
+    biological = prompt("Enter Biological:")
+    let phys = parseInt(physical)
+    let chem = parseInt(chemistry)
+    let biol = parseInt(biological)
+    let sum = phys + chem + biol
+    let aver = sum / 3
+    document.write("The average is: " + aver)
+    document.write("The sum is: " + sum)
+</script>
 </html>
